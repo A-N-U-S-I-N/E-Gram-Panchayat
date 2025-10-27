@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:5000/api/applications';
+const API_URL = `${process.env.REACT_APP_API_URL}/api/applications`;
 
 export const applyForService = async (payload, token) => {
   const response = await fetch(`${API_URL}`, { 
