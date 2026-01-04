@@ -90,9 +90,9 @@ const Home = () => {
       </form>
       </div>
 
-      <footer className="bg-light text-center py-3">
-        <p>Contact us: digitalgram@village.gov.in | Follow on Twitter @GramPanchayat</p>
+      <footer className="bg-light text-center pt-3">
         <p>© {new Date().getFullYear()} Digital E Gram Panchayat</p>
+        <p>Developed by <a href="https://anushkacode.vercel.app" className="text-decoration-none text-secondary-emphasis link-primary" target="_blank">Anushka Singh</a></p>
       </footer>
 
     </div>
